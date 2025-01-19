@@ -17,7 +17,7 @@ jobs:
         
 
   cd:
-    runruns-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Autenticar na AWS
         run: echo "Executando o comado AWS Configure"
